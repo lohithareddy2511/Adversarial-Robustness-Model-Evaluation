@@ -1,8 +1,6 @@
-# Data
-data/
 
-# Results (regenerable)
-results/
+# Data (auto-downloads, too large for git)
+data/
 
 # Python
 __pycache__/

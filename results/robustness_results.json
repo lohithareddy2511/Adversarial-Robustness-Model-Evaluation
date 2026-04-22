@@ -1,0 +1,366 @@
+{
+  "Baseline": {
+    "clean": {
+      "accuracy": 94.45,
+      "avg_loss": 0.19261967861652374,
+      "per_class_accuracy": {
+        "airplane": 95.1,
+        "automobile": 97.3,
+        "bird": 92.6,
+        "cat": 88.3,
+        "deer": 95.8,
+        "dog": 90.7,
+        "frog": 95.7,
+        "horse": 95.4,
+        "ship": 96.9,
+        "truck": 96.7
+      }
+    },
+    "fgsm": {
+      "0.01": {
+        "accuracy": 66.21,
+        "avg_loss": 1.619845348739624,
+        "per_class_accuracy": {
+          "airplane": 69.7,
+          "automobile": 81.2,
+          "bird": 57.9,
+          "cat": 42.4,
+          "deer": 58.8,
+          "dog": 53.3,
+          "frog": 69.9,
+          "horse": 69.8,
+          "ship": 79.0,
+          "truck": 80.1
+        }
+      },
+      "0.02": {
+        "accuracy": 41.51,
+        "avg_loss": 3.7526039981842043,
+        "per_class_accuracy": {
+          "airplane": 47.6,
+          "automobile": 64.0,
+          "bird": 34.4,
+          "cat": 17.3,
+          "deer": 27.1,
+          "dog": 28.5,
+          "frog": 37.6,
+          "horse": 43.9,
+          "ship": 57.5,
+          "truck": 57.2
+        }
+      },
+      "0.04": {
+        "accuracy": 21.03,
+        "avg_loss": 6.31006964263916,
+        "per_class_accuracy": {
+          "airplane": 20.5,
+          "automobile": 40.0,
+          "bird": 19.5,
+          "cat": 8.8,
+          "deer": 10.6,
+          "dog": 10.2,
+          "frog": 12.2,
+          "horse": 18.0,
+          "ship": 39.7,
+          "truck": 30.8
+        }
+      },
+      "0.08": {
+        "accuracy": 11.98,
+        "avg_loss": 7.436132062530517,
+        "per_class_accuracy": {
+          "airplane": 4.9,
+          "automobile": 22.2,
+          "bird": 15.0,
+          "cat": 10.0,
+          "deer": 7.0,
+          "dog": 3.6,
+          "frog": 5.2,
+          "horse": 5.8,
+          "ship": 30.9,
+          "truck": 15.2
+        }
+      },
+      "0.1": {
+        "accuracy": 10.77,
+        "avg_loss": 7.384619022369384,
+        "per_class_accuracy": {
+          "airplane": 3.3,
+          "automobile": 18.3,
+          "bird": 15.7,
+          "cat": 11.9,
+          "deer": 6.5,
+          "dog": 2.7,
+          "frog": 5.6,
+          "horse": 4.5,
+          "ship": 27.1,
+          "truck": 12.1
+        }
+      }
+    },
+    "pgd": {
+      "0.01": {
+        "accuracy": 57.13,
+        "avg_loss": 2.3192905818939207,
+        "per_class_accuracy": {
+          "airplane": 58.1,
+          "automobile": 77.9,
+          "bird": 47.6,
+          "cat": 30.9,
+          "deer": 46.5,
+          "dog": 42.9,
+          "frog": 60.4,
+          "horse": 63.7,
+          "ship": 68.1,
+          "truck": 75.2
+        }
+      },
+      "0.02": {
+        "accuracy": 15.65,
+        "avg_loss": 8.230575073242187,
+        "per_class_accuracy": {
+          "airplane": 10.8,
+          "automobile": 39.1,
+          "bird": 8.9,
+          "cat": 2.8,
+          "deer": 6.1,
+          "dog": 6.1,
+          "frog": 15.0,
+          "horse": 18.5,
+          "ship": 17.6,
+          "truck": 31.6
+        }
+      },
+      "0.04": {
+        "accuracy": 0.42,
+        "avg_loss": 20.572789602661132,
+        "per_class_accuracy": {
+          "airplane": 0.0,
+          "automobile": 2.1,
+          "bird": 0.0,
+          "cat": 0.0,
+          "deer": 0.1,
+          "dog": 0.0,
+          "frog": 0.2,
+          "horse": 0.2,
+          "ship": 0.3,
+          "truck": 1.3
+        }
+      },
+      "0.08": {
+        "accuracy": 0.0,
+        "avg_loss": 34.63938763427734,
+        "per_class_accuracy": {
+          "airplane": 0.0,
+          "automobile": 0.0,
+          "bird": 0.0,
+          "cat": 0.0,
+          "deer": 0.0,
+          "dog": 0.0,
+          "frog": 0.0,
+          "horse": 0.0,
+          "ship": 0.0,
+          "truck": 0.0
+        }
+      },
+      "0.1": {
+        "accuracy": 0.0,
+        "avg_loss": 38.81226260986328,
+        "per_class_accuracy": {
+          "airplane": 0.0,
+          "automobile": 0.0,
+          "bird": 0.0,
+          "cat": 0.0,
+          "deer": 0.0,
+          "dog": 0.0,
+          "frog": 0.0,
+          "horse": 0.0,
+          "ship": 0.0,
+          "truck": 0.0
+        }
+      }
+    }
+  },
+  "PGD-Trained": {
+    "clean": {
+      "accuracy": 91.88,
+      "avg_loss": 0.2530622003078461,
+      "per_class_accuracy": {
+        "airplane": 93.9,
+        "automobile": 96.4,
+        "bird": 88.8,
+        "cat": 83.3,
+        "deer": 92.8,
+        "dog": 83.9,
+        "frog": 95.2,
+        "horse": 94.3,
+        "ship": 95.7,
+        "truck": 94.5
+      }
+    },
+    "fgsm": {
+      "0.01": {
+        "accuracy": 88.25,
+        "avg_loss": 0.38489878630638125,
+        "per_class_accuracy": {
+          "airplane": 90.0,
+          "automobile": 94.4,
+          "bird": 84.3,
+          "cat": 75.8,
+          "deer": 88.4,
+          "dog": 79.8,
+          "frog": 91.7,
+          "horse": 91.4,
+          "ship": 94.2,
+          "truck": 92.5
+        }
+      },
+      "0.02": {
+        "accuracy": 83.98,
+        "avg_loss": 0.5598898346424103,
+        "per_class_accuracy": {
+          "airplane": 87.1,
+          "automobile": 91.9,
+          "bird": 78.6,
+          "cat": 68.1,
+          "deer": 82.6,
+          "dog": 74.9,
+          "frog": 87.1,
+          "horse": 87.9,
+          "ship": 91.8,
+          "truck": 89.8
+        }
+      },
+      "0.04": {
+        "accuracy": 73.89,
+        "avg_loss": 1.04498084564209,
+        "per_class_accuracy": {
+          "airplane": 79.7,
+          "automobile": 87.3,
+          "bird": 66.8,
+          "cat": 51.3,
+          "deer": 66.6,
+          "dog": 64.1,
+          "frog": 74.8,
+          "horse": 79.7,
+          "ship": 85.3,
+          "truck": 83.3
+        }
+      },
+      "0.08": {
+        "accuracy": 51.78,
+        "avg_loss": 2.4547597148895264,
+        "per_class_accuracy": {
+          "airplane": 61.5,
+          "automobile": 71.0,
+          "bird": 40.9,
+          "cat": 26.7,
+          "deer": 37.2,
+          "dog": 43.4,
+          "frog": 47.5,
+          "horse": 58.3,
+          "ship": 66.4,
+          "truck": 64.9
+        }
+      },
+      "0.1": {
+        "accuracy": 43.14,
+        "avg_loss": 3.2613790077209472,
+        "per_class_accuracy": {
+          "airplane": 53.8,
+          "automobile": 64.1,
+          "bird": 32.9,
+          "cat": 20.0,
+          "deer": 26.7,
+          "dog": 35.0,
+          "frog": 37.2,
+          "horse": 50.4,
+          "ship": 56.2,
+          "truck": 55.1
+        }
+      }
+    },
+    "pgd": {
+      "0.01": {
+        "accuracy": 88.19,
+        "avg_loss": 0.388006471157074,
+        "per_class_accuracy": {
+          "airplane": 90.0,
+          "automobile": 94.4,
+          "bird": 84.3,
+          "cat": 75.5,
+          "deer": 88.3,
+          "dog": 79.7,
+          "frog": 91.7,
+          "horse": 91.4,
+          "ship": 94.2,
+          "truck": 92.4
+        }
+      },
+      "0.02": {
+        "accuracy": 83.41,
+        "avg_loss": 0.578807018327713,
+        "per_class_accuracy": {
+          "airplane": 86.8,
+          "automobile": 91.5,
+          "bird": 78.0,
+          "cat": 66.8,
+          "deer": 82.1,
+          "dog": 73.9,
+          "frog": 86.5,
+          "horse": 87.7,
+          "ship": 91.6,
+          "truck": 89.2
+        }
+      },
+      "0.04": {
+        "accuracy": 70.76,
+        "avg_loss": 1.1869952703475952,
+        "per_class_accuracy": {
+          "airplane": 77.9,
+          "automobile": 85.5,
+          "bird": 63.4,
+          "cat": 47.0,
+          "deer": 61.0,
+          "dog": 59.9,
+          "frog": 71.3,
+          "horse": 76.4,
+          "ship": 83.5,
+          "truck": 81.7
+        }
+      },
+      "0.08": {
+        "accuracy": 41.37,
+        "avg_loss": 3.607489835357666,
+        "per_class_accuracy": {
+          "airplane": 52.7,
+          "automobile": 63.7,
+          "bird": 32.2,
+          "cat": 15.6,
+          "deer": 22.3,
+          "dog": 35.4,
+          "frog": 32.5,
+          "horse": 49.0,
+          "ship": 56.2,
+          "truck": 54.1
+        }
+      },
+      "0.1": {
+        "accuracy": 28.15,
+        "avg_loss": 5.415048762512207,
+        "per_class_accuracy": {
+          "airplane": 40.1,
+          "automobile": 49.0,
+          "bird": 21.5,
+          "cat": 7.8,
+          "deer": 11.0,
+          "dog": 22.9,
+          "frog": 17.3,
+          "horse": 35.6,
+          "ship": 38.0,
+          "truck": 38.3
+        }
+      }
+    }
+  }
+}
