@@ -41,6 +41,15 @@ End-to-end pipeline for evaluating deep learning model robustness under adversar
 - Reliability diagrams with ECE annotation
 - Uncertainty histograms (correct vs. incorrect predictions)
 
+## Dataset
+
+This project uses **CIFAR-10**, a widely-used benchmark dataset for image classification:
+
+- **10 classes:** airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck
+- **60,000 images** (50,000 train / 10,000 test), 32×32 RGB
+- **Auto-downloads** on first run via `torchvision.datasets.CIFAR10` — no manual setup needed
+- Raw data is stored locally in `data/` (~163MB) and excluded from the repository
+
 ## Quick Start
 
 ```bash
